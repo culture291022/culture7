@@ -1,0 +1,448 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-16 14:44+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%"
+"100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\house\models.py:37 .\templates\board\index.html:12
+msgid "board_name"
+msgstr "Раздел форума"
+
+#: .\house\models.py:38 .\templates\board\index.html:13
+msgid "board_description"
+msgstr "Описание раздела форума"
+
+#: .\house\models.py:48
+msgid "topic_subject"
+msgstr "Тема форума"
+
+#: .\house\models.py:49
+msgid "last_updated"
+msgstr "Дата обновления"
+
+#: .\house\models.py:52
+msgid "views"
+msgstr "Просмотров"
+
+#: .\house\models.py:75
+msgid "message"
+msgstr "Сообщение"
+
+#: .\house\models.py:77
+msgid "created_at"
+msgstr "Создано"
+
+#: .\house\models.py:78
+msgid "updated_at"
+msgstr "Изменено"
+
+#: .\house\models.py:91 .\templates\news\index.html:12
+msgid "daten"
+msgstr "Дата"
+
+#: .\house\models.py:92
+msgid "title_news"
+msgstr "Заголовок новости"
+
+#: .\house\models.py:93
+msgid "details_news"
+msgstr "Детали новости"
+
+#: .\house\models.py:94
+msgid "photo_news"
+msgstr "Фотография"
+
+#: .\house\models.py:117
+msgid "dater_reviews"
+msgstr "Дата отзыва"
+
+#: .\house\models.py:118
+msgid "rating"
+msgstr "Оценка"
+
+#: .\house\models.py:119
+msgid "details_reviews"
+msgstr "Детали отзыва"
+
+#: .\templates\base.html:36
+msgid "Home"
+msgstr "Главная"
+
+#: .\templates\base.html:43 .\templates\info\about.html:4
+msgid "about"
+msgstr "О нас..."
+
+#: .\templates\base.html:46 .\templates\contact.html:7
+msgid "contacts"
+msgstr "Контакты"
+
+#: .\templates\base.html:49 .\templates\news\create.html:6
+#: .\templates\news\edit.html:6 .\templates\news\read.html:7
+msgid "news"
+msgstr "Новость"
+
+#: .\templates\base.html:52 .\templates\info\photogallery.html:4
+#: .\templates\info\photogallery.html:28
+msgid "photogallery"
+msgstr "Фотогаллерея"
+
+#: .\templates\base.html:55 .\templates\reviews\create.html:6
+#: .\templates\reviews\index.html:7
+msgid "reviews"
+msgstr "Отзывы"
+
+#: .\templates\base.html:59 .\templates\forum\home.html:6
+msgid "forum"
+msgstr "Форум"
+
+#: .\templates\base.html:67
+msgid "boards"
+msgstr "Разделы форума"
+
+#: .\templates\base.html:68 .\templates\reviews\index.html:4
+#: .\templates\reviews\list.html:4 .\templates\reviews\list.html:8
+msgid "reviewss"
+msgstr "Отзывы"
+
+#: .\templates\base.html:70 .\templates\index.html:37
+#: .\templates\news\index.html:3 .\templates\news\index.html:6
+#: .\templates\news\list.html:4 .\templates\news\list.html:8
+msgid "newss"
+msgstr "Новости"
+
+#: .\templates\base.html:75 .\templates\registration\my_account.html:4
+#: .\templates\registration\my_account.html:10
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: .\templates\base.html:76
+#: .\templates\registration\password_change_form.html:9
+#: .\templates\registration\password_change_form.html:15
+msgid "Change password"
+msgstr "Поменять пароль"
+
+#: .\templates\base.html:78
+msgid "Log out"
+msgstr "Выйти из системы"
+
+#: .\templates\base.html:83
+msgid "Log In"
+msgstr "Авторизоваться"
+
+#: .\templates\base.html:85 .\templates\registration\signup.html:4
+#: .\templates\registration\signup.html:10
+msgid "Sign up"
+msgstr "Зарегистрироваться"
+
+#: .\templates\board\create.html:3 .\templates\board\index.html:14
+#: .\templates\board\index.html:33 .\templates\news\create.html:3
+#: .\templates\news\index.html:45 .\templates\reviews\create.html:3
+msgid "Create"
+msgstr "Создать"
+
+#: .\templates\board\create.html:5 .\templates\board\edit.html:5
+#: .\templates\board\read.html:5
+msgid "board"
+msgstr "Раздел форума"
+
+#: .\templates\board\create.html:12 .\templates\board\edit.html:12
+#: .\templates\news\create.html:13 .\templates\news\edit.html:13
+#: .\templates\reviews\create.html:13
+msgid "Save"
+msgstr "Сохранить"
+
+#: .\templates\board\create.html:13 .\templates\board\edit.html:13
+#: .\templates\board\read.html:18 .\templates\news\create.html:14
+#: .\templates\news\edit.html:14 .\templates\news\read.html:47
+#: .\templates\reviews\create.html:14
+msgid "Back"
+msgstr "Назад"
+
+#: .\templates\board\edit.html:3 .\templates\board\index.html:23
+#: .\templates\news\edit.html:3 .\templates\news\index.html:35
+msgid "Change"
+msgstr "Изменить"
+
+#: .\templates\board\index.html:3
+msgid "List"
+msgstr "Список"
+
+#: .\templates\board\index.html:6 .\templates\forum\edit_post.html:5
+#: .\templates\forum\home.html:11 .\templates\forum\new_topic.html:5
+#: .\templates\forum\reply_topic.html:5 .\templates\forum\topic_posts.html:5
+#: .\templates\forum\topics.html:5
+msgid "Boards"
+msgstr "Разделы форума"
+
+#: .\templates\board\index.html:24 .\templates\board\read.html:3
+#: .\templates\news\index.html:36
+msgid "View"
+msgstr "Просмотреть"
+
+#: .\templates\board\index.html:25 .\templates\news\index.html:37
+#: .\templates\reviews\index.html:35
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\forum\edit_post.html:3 .\templates\forum\edit_post.html:8
+msgid "Edit post"
+msgstr "Редактировать сообщение"
+
+#: .\templates\forum\edit_post.html:14
+#: .\templates\registration\my_account.html:15
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: .\templates\forum\home.html:3 .\templates\forum\new_topic.html:3
+#: .\templates\forum\reply_topic.html:3 .\templates\forum\topic_posts.html:3
+#: .\templates\forum\topics.html:3
+msgid "Forum"
+msgstr "Форум"
+
+#: .\templates\forum\home.html:12
+msgid "Posts"
+msgstr "Посты"
+
+#: .\templates\forum\home.html:13
+msgid "Topics"
+msgstr "Темы"
+
+#: .\templates\forum\home.html:14
+msgid "Last Post"
+msgstr "Последнее сообщение"
+
+#: .\templates\forum\home.html:40
+msgid "No posts yet."
+msgstr "Сообщений пока нет"
+
+#: .\templates\forum\new_topic.html:7 .\templates\forum\topics.html:12
+msgid "New topic"
+msgstr "Новая тема"
+
+#: .\templates\forum\new_topic.html:10
+msgid "Start a New Topic"
+msgstr "Начать новую тему"
+
+#: .\templates\forum\new_topic.html:14
+msgid "Post"
+msgstr "Опубликовать"
+
+#: .\templates\forum\reply_topic.html:8 .\templates\forum\reply_topic.html:15
+msgid "Post a reply"
+msgstr "Опубликовать ответ"
+
+#: .\templates\forum\topic_posts.html:12
+msgid "Reply"
+msgstr "Ответить"
+
+#: .\templates\forum\topic_posts.html:41
+msgid "Edit"
+msgstr "Изменить"
+
+#: .\templates\forum\topics.html:17
+msgid "Topic"
+msgstr "Тема"
+
+#: .\templates\forum\topics.html:18
+msgid "Starter"
+msgstr "Начать"
+
+#: .\templates\forum\topics.html:19
+msgid "Replies"
+msgstr "Replies"
+
+#: .\templates\forum\topics.html:20
+msgid "Views"
+msgstr "Просмотры"
+
+#: .\templates\forum\topics.html:21
+msgid "Last Update"
+msgstr "Последнее обновление"
+
+#: .\templates\forum\topics.html:33
+msgid "Pages"
+msgstr "Страницы"
+
+#: .\templates\forum\topics.html:38
+msgid "Last Page"
+msgstr "Последняя страница"
+
+#: .\templates\index.html:4
+msgid "App name"
+msgstr "Culture"
+
+#: .\templates\index.html:82
+msgid "all newss"
+msgstr "Все новости"
+
+#: .\templates\index.html:110
+msgid "all reviews"
+msgstr "Все отзывы"
+
+#: .\templates\info\video.html:4 .\templates\info\video.html:7
+msgid "video"
+msgstr "Видео"
+
+#: .\templates\news\index.html:13 .\templates\reviews\index.html:17
+msgid "title"
+msgstr "Заголовок"
+
+#: .\templates\news\index.html:15 .\templates\reviews\list.html:13
+msgid "Add"
+msgstr "Добавить"
+
+#: .\templates\news\read.html:4
+msgid "Read"
+msgstr "Посмотреть"
+
+#: .\templates\registration\logged_out.html:4
+#: .\templates\registration\login.html:4
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_reset_complete.html:4
+#: .\templates\registration\password_reset_confirm.html:4
+#: .\templates\registration\password_reset_done.html:4
+#: .\templates\registration\password_reset_form.html:4
+#: .\templates\registration\register_done.html:4
+msgid "App Name"
+msgstr "Culture"
+
+#: .\templates\registration\logged_out.html:6
+msgid "Logged out!"
+msgstr "Вышли из системы!"
+
+#: .\templates\registration\logged_out.html:7
+msgid "Login again"
+msgstr "Войдите заново"
+
+#: .\templates\registration\login.html:7
+msgid "Incorrect login or password"
+msgstr "Неправильный логин или пароль"
+
+#: .\templates\registration\login.html:12
+msgid "You dont have access"
+msgstr "У вас нет доступа"
+
+#: .\templates\registration\login.html:14
+msgid "Login to see this page"
+msgstr "Войдите, чтобы увидеть эту страницу"
+
+#: .\templates\registration\login.html:22
+msgid "Authorization"
+msgstr "Авторизация"
+
+#: .\templates\registration\login.html:27
+msgid "Login"
+msgstr "Авторизоваться"
+
+#: .\templates\registration\login.html:33
+msgid "Lost password?"
+msgstr "Забыли пароль?"
+
+#: .\templates\registration\login.html:34
+#: .\templates\registration\signup.html:15
+msgid "Create an account"
+msgstr "Создать учетную запись"
+
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "Пароль изменен"
+
+#: .\templates\registration\password_reset_complete.html:6
+msgid "Password reset completed!"
+msgstr "Сброс пароля завершен!"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Log in again?"
+msgstr "Снова войти в систему?"
+
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "Password reset confirmation"
+msgstr "Подтверждение сброса пароля"
+
+#: .\templates\registration\password_reset_confirm.html:18
+#: .\templates\registration\password_reset_form.html:10
+#: .\templates\registration\password_reset_form.html:16
+msgid "Reset password"
+msgstr "Сброс пароля"
+
+#: .\templates\registration\password_reset_confirm.html:26
+msgid "Please enter (and confirm) your new password."
+msgstr "Пожалуйста, введите (и подтвердите) свой новый пароль."
+
+#: .\templates\registration\password_reset_confirm.html:32
+msgid "New password:"
+msgstr "Новый пароль:"
+
+#: .\templates\registration\password_reset_confirm.html:37
+msgid "Confirm password:"
+msgstr "Подтвердите пароль:"
+
+#: .\templates\registration\password_reset_confirm.html:48
+msgid "Password reset failed"
+msgstr "Сбой сброса пароля"
+
+#: .\templates\registration\password_reset_confirm.html:49
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Ссылка для сброса пароля была недействительной, возможно, потому, что она "
+"уже была используется. Пожалуйста, запросите сброс нового пароля."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "Password reset"
+msgstr "Сброс пароля"
+
+#: .\templates\registration\password_reset_done.html:7
+msgid "Check your email"
+msgstr "Проверьте свою электронную почту"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Asked password reset email"
+msgstr "Запрос на сброс пароля по электронной почте"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "Перейдите по ссылке ниже:"
+
+#: .\templates\registration\register_done.html:10
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: .\templates\registration\register_done.html:11
+msgid "Your account has been successfully created."
+msgstr "Ваша учетная запись была успешно создана."
+
+#: .\templates\registration\register_done.html:11
+#: .\templates\registration\signup.html:20
+msgid "Log in"
+msgstr "Авторизоваться"
+
+#: .\templates\registration\signup.html:20
+msgid "Already have an account?"
+msgstr "У вас уже есть учетная запись?"
+
+#: .\templates\reviews\index.html:15
+msgid "dater"
+msgstr "Дата"
+
+#: .\templates\reviews\index.html:16
+msgid "user"
+msgstr "Пользователь"
