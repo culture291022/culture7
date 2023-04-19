@@ -29,7 +29,6 @@ SECRET_KEY = 'django-insecure-cl_$r9(ohj7_oed=lo*#fj*@_$^t&kvwk3cnm!tjx%)c+8!e8$
 DEBUG = True
 DEBUG = False
 
-
 ALLOWED_HOSTS = ['127.0.0.1', 'culture7.onrender.com',]
 
 # Application definition

@@ -205,8 +205,8 @@ def beginning(apps, schema_editor):
     post.topic = topic
     post.created_at = datetime.now() - timedelta(minutes=3)
     #post.updated_at = datetime.now()
-    post.created_by_id = 6
-    #post.updated_by_id = 6
+    post.created_by_id = 7
+    #post.updated_by_id = 7
     post.save()
 
     time.sleep(1)
@@ -258,7 +258,7 @@ def beginning(apps, schema_editor):
     time.sleep(1)
     
     post = Post()
-    post.message = 'Осуждаме место проведения паздничного концерта (внути СДК или на летней площадке)'
+    post.message = 'Обсуждаем место проведения паздничного концерта (внутри СДК или на летней площадке)'
     post.topic = topic
     post.created_at = datetime.now() - timedelta(minutes=4)
     #post.updated_at = datetime.now()

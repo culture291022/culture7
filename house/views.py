@@ -32,7 +32,7 @@ from django.db.models import Q
 
 from .models import Board, Topic, Post, Reviews, News
 # Подключение форм
-from .forms import BoardForm, NewTopicForm, PostForm, ReviewsForm, NewsForm
+from .forms import BoardForm, NewTopicForm, PostForm, ReviewsForm, NewsForm, SignUpForm
 
 from django.contrib.auth.models import AnonymousUser
 
